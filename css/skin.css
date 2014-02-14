@@ -25,28 +25,6 @@ body {
 	content: 'This page requires JavaScript for correct performance';
 }
 
-/*
-.js-required{
-	display: none;
-	position: fixed;
-	top: 5px;
-	left: 5%;
-	right: 5%;
-	padding: 10px 0;
-	background: firebrick;
-	color: lightyellow;
-	text-align: center;
-	font-weight: bold;
-	z-index: 100500;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-}
-.no-js .js-required{
-	display: block;
-}
-*/
-
 .disable-hover,
 .disable-hover * {
 	pointer-events: none !important;
