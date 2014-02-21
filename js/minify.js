@@ -12,6 +12,6 @@ function minify(node){
 	return node;
 }
 
-window.onload = function(e){
-	minify(document); 
-}
+document.addEventListener('DOMContentLoaded', function() {
+	minify(document);
+}, false);
