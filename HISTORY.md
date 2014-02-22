@@ -20,3 +20,7 @@
 - Scott Jehl's respond.js script is used no more;
 - Inversed (ltr/rtl) grid direction added;
 - Double gutter class (.c-c) modifier added;
+
+##v0.91 Beta release refactoring
+
+- Demo HTML files moved to the corresponding folder;
