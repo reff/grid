@@ -1,20 +1,23 @@
+@import "_func.scss";
+
 //	============================================================================
 //	Skin Settings
 //	============================================================================
 
-
+	$font_size: 14px;
 
 //	============================================================================
 
-
+html{
+	font-size: $font_size;
+	font-family: 'Consolas', sans-serif;
+}
 
 html,
 body {
 	margin: 0;
 	width: 100%;
 	overflow-x: hidden;
-	font-family: 'Consolas', sans-serif;
-	font-size: 11px;
 }
 
 .no-js body:after{
@@ -55,3 +58,28 @@ img.r{
 	height: auto;
 	display: block;
 }
+
+
+//	============================================================================
+//	Media-Dependent Styles
+//	============================================================================
+
+	@media (min-width: 1px) {
+		html{
+			font-size: 12px;
+		}
+	}
+
+	@media (min-width: 480px) {
+		html{
+			font-size: 13px;
+		}
+	}
+
+	@media (min-width: 960px) {
+		html{
+			font-size: 14px;
+		}
+	}
+
+//	============================================================================

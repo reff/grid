@@ -1,14 +1,18 @@
-/* line 12, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+/* line 11, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+html {
+  font-size: 14px;
+  font-family: "Consolas", sans-serif;
+}
+
+/* line 17, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
 html,
 body {
   margin: 0;
   width: 100%;
   overflow-x: hidden;
-  font-family: "Consolas", sans-serif;
-  font-size: 11px;
 }
 
-/* line 20, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+/* line 23, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
 .no-js body:after {
   display: block;
   position: fixed;
@@ -27,13 +31,13 @@ body {
   content: 'This page requires JavaScript for correct performance';
 }
 
-/* line 39, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+/* line 42, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
 .disable-hover,
 .disable-hover * {
   pointer-events: none !important;
 }
 
-/* line 43, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+/* line 46, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
 .ir {
   position: absolute;
   overflow: hidden;
@@ -44,9 +48,28 @@ body {
   text-indent: -1000%;
 }
 
-/* line 53, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+/* line 56, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
 img.r {
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media (min-width: 1px) {
+  /* line 68, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 480px) {
+  /* line 74, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+  html {
+    font-size: 13px;
+  }
+}
+@media (min-width: 960px) {
+  /* line 80, d:/Copy/Divisory/Public/grid/css/scss/skin.scss */
+  html {
+    font-size: 14px;
+  }
 }

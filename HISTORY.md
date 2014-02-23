@@ -1,13 +1,14 @@
 #HISTORY
 
-##v0.1 Initial commit
+##v0.92 Minor updates and bug fixes
 
-- Basic CSS and HTML demos added, no preprocessing (but kept in mind);
+- Mouse hover disabling script updated and renamed;
+- Skin functions file added (_func.scss);
+- Media-dependent rem typographic rules added;
 
-##v0.2 Minor fixes
+##v0.91 Beta release refactoring
 
-- Flat and Nested grid demos paddings fixed;
-- Outdated no-js warning removed;
+- Demo HTML files moved to the corresponding folder;
 
 ##v0.9 Beta release
 
@@ -21,6 +22,11 @@
 - Inversed (ltr/rtl) grid direction added;
 - Double gutter class (.c-c) modifier added;
 
-##v0.91 Beta release refactoring
+##v0.2 Minor fixes
 
-- Demo HTML files moved to the corresponding folder;
+- Flat and Nested grid demos paddings fixed;
+- Outdated no-js warning removed;
+
+##v0.1 Initial commit
+
+- Basic CSS and HTML demos added, no preprocessing (but kept in mind);
