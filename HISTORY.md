@@ -1,5 +1,9 @@
 #HISTORY
 
+##v0.93 Bug fixed
+
+- Fixed .c-c style;
+
 ##v0.92 Minor updates and bug fixes
 
 - Mouse hover disabling script updated and renamed;
