@@ -12,6 +12,11 @@ function minify(node){
 	return node;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-	minify(document);
-}, false);
+
+if ( document.addEventListener ){
+
+	document.addEventListener('DOMContentLoaded', function() {
+		minify(document);
+	}, false);
+
+}

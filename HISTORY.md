@@ -1,5 +1,9 @@
 #HISTORY
 
+##v0.94 Compatibility fix
+
+- minify.js compatibility fix
+
 ##v0.93 Bug fixed
 
 - Fixed .c-c style;
