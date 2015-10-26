@@ -119,15 +119,15 @@
 //	Media-Dependent Fractions
 //	============================================================================
 
-	@media (min-width: 480px) {
+	@media (min-width: 480px){
 		@include grid-calc(2 3, '--m');
 	}
 
-	@media (min-width: 960px) {
+	@media (min-width: 960px){
 		@include grid-calc(2 3 4, '--t');
 	}
 
-	@media (min-width: 1200px) {
+	@media (min-width: 1200px){
 		@include grid-calc(2 3 4 5 6 12, '--d');
 	}
 
