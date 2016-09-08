@@ -1,10 +1,28 @@
 {
-  "name": "divisory.grid",
-  "version": "1.0.0",
+  "name": "reff.grid",
+  "version": "0.0.2",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-cssmin": "~0.8.0"
-  }
+  },
+  "description": "Responsive Grid System",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reff/grid.git"
+  },
+  "keywords": [
+    "grid"
+  ],
+  "author": "Andrew (reff) Reva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reff/grid/issues"
+  },
+  "homepage": "https://github.com/reff/grid#readme"
 }
